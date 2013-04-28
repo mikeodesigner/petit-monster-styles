@@ -142,7 +142,7 @@ blockquote cite {
 
 /* main navigation and sidebar typography */
 
-body > header > nav > ul, aside ul {
+.nav > ul, .aside ul {
 	list-style: none;
 	font-style: normal;
 	margin-bottom: 0px;
@@ -150,20 +150,20 @@ body > header > nav > ul, aside ul {
 }
 
 
-aside h2 {
+.aside h2 {
 	margin-top: 0;
 }
-aside ul {
+.aside ul {
 	margin-left: 0;
 }
 
-body > header > nav > ul li {
+.nav > ul li {
 	font-size: 1em;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
-aside ul a {
+.aside ul a {
 	text-decoration: none;
 }
 
@@ -173,7 +173,7 @@ p.nav a:link {
 	text-decoration: none;
 }
 
-body > header > nav > ul {
+.nav > ul {
 	font-style: normal;
 	font-weight: 400;
 	font-family: Georgia;
@@ -188,7 +188,7 @@ body > header > nav > ul {
 
 /* custom clusses */
 
-p big {
+p.big {
 	font-size: 20px;
 	font-weight: 400;
 	font-style: italic;

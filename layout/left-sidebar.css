@@ -4,8 +4,8 @@
 .container							{ width: 1100px; 	margin:4em auto; 	position:relative; display:block; }
 	.header 							{ width:25%; float:left; } 
 		.nav								{ width: 100%; float: right; display:inline; }
-			.nav  > ul 				{ margin:0;  } 
-				.nav > ul > li	{ }
+			.nav  > ul 				{ margin:0; } 
+				.nav > ul > li	{ margin:0; }
 	 			.nav 						{ width: 100%; float: right; }
 				.nav  					{ float: left; clear:left; }
 	.section 							{ width: 75%; float: right; }
@@ -15,14 +15,14 @@
 
 
 /* global vertical and horisontal white space */
-.main > * {padding:2rem 2em;
+.logo, .nav, .section, .aside, .footer  {
+  padding:2rem 40px;
 	 box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 }
 
 
-.nav, nav ul	{padding:0; margin:0;}/* ensures layouts won't break because padding changes width */
 article.loop h2 {margin-top:0;}
 
 
