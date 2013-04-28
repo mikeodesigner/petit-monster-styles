@@ -17,16 +17,16 @@ body {font-size:14px; line-height:2rem; font-weight:300;}  /* main font size */
 
 h1, h2, h3, h4, h5, h6 {
 
-	font-family: 'Cabin Sketch', cursive;
-	font-style:normal; 
-	font-weight:400;
-	margin:	2rem 0 1rem 0;
-	
-	}
+  font-family: 'Cabin Sketch', cursive;
+  font-style:normal; 
+  font-weight:400;
+  margin: 2rem 0 1rem 0;
+  
+  }
 
 p, ul, form, figure, address, table {
-	font-weight: 300; 
-	margin:	1rem 0 1rem 0;
+  font-weight: 300; 
+  margin: 1rem 0 1rem 0;
   text-indent: 0px;
 }
 
@@ -37,77 +37,77 @@ label {display:block;}
 
 
 h1 {
-	margin:1rem 0 2rem 0;
-	font-size: 3em; /* 3.75 x 14 = 50px */
-	line-height: 4rem;
-	font-weight:700;
+  margin:1rem 0 2rem 0;
+  font-size: 3em; /* 3.75 x 14 = 50px */
+  line-height: 4rem;
+  font-weight:700;
 }
 
 h2 {
-	line-height:4rem;
-	font-size: 1.8em;
+  line-height:4rem;
+  font-size: 1.8em;
 }
 
 h3 {
-	font-size: 1.5em;
-	line-height: 3rem;
+  font-size: 1.5em;
+  line-height: 3rem;
 }
 
 h4 {
-	font-size: 1.3em;
-	line-height: 2rem;
+  font-size: 1.3em;
+  line-height: 2rem;
 }
 
 h5 {
-	font-size:1.1em;
+  font-size:1.1em;
 }
 
 h6 {
-	font-size:1em;
+  font-size:1em;
 }
 
 blockquote:before {
-	content: "“";
-	display: block;
-	font-size: 80px;
-	left: 0px;
-	position: absolute;
-	top: 20px;
-	opacity: 0.5;
+  content: "“";
+  display: block;
+  font-size: 80px;
+  left: 0px;
+  position: absolute;
+  top: 20px;
+  opacity: 0.5;
 }
 
 blockquote cite:before {
-	content: "— ";
+  content: "— ";
 }
 
 
 blockquote {
-	position:relative;
+  position:relative;
     font-style: italic;
     font-weight: 300;
     font-family: Lato;
- 		line-height: 2rem;
+    line-height: 2rem;
     font-size: 1.4em; /* 1.4 x 14 = 19px */ 
     text-indent: 0px;
-		margin: 2rem 0;
-		padding-left:40px;
+    margin: 2rem 0;
+    padding-left:40px;
 }
 
 
 blockquote cite {
-	display:block;
-	font-size:0.8em;
-	margin-top:1rem;
+  display:block;
+  font-size:0.8em;
+  margin-top:1rem;
 }
 
 
 /* main navigation and sidebar typography */
 
 .nav > ul, .aside ul {
-	list-style:none;
+  list-style:none;
   font-style: normal;
-	margin-bottom: 0px;
-	font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -118,13 +118,13 @@ aside h2 {margin-top:0;}
 aside ul {margin-left:0;}
 
 .nav > ul li { 
-	font-size: 1em;    
+  font-size: 1em;    
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 .aside ul a {
-	text-decoration:none;
+  text-decoration:none;
 }
 
 
@@ -132,26 +132,26 @@ aside ul {margin-left:0;}
 
 p.big {
     font-size: 1.3em;
-		line-height:3rem;
+    line-height:3rem;
     font-weight: 200;
     margin:1rem 0;
-		font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1.big {
-		margin-top:2rem;
+    margin-top:2rem;
     font-size: 4em;
     line-height: 5rem;
     font-style: normal;
-		text-transform:uppercase;
+    text-transform:uppercase;
 }
 
 .logo h1  {
-		margin-bottom: 0px;
-		font-size: 2em;
-		letter-spacing: 0px;
-		text-transform: uppercase;
-		font-weight: 900;
-		font-style: normal;
-		line-height:3rem;
+    margin-bottom: 0px;
+    font-size: 2em;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: normal;
+    line-height:3rem;
 }
