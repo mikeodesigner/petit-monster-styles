@@ -53,5 +53,7 @@ border:1px soli;
   display: table;
   clear: both;}
   
+img {max-width:100%;}  
+  
 .alignleft {float:left;}
 .alignright {float:right;}
